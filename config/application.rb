@@ -21,5 +21,6 @@ module TestEmberApp
     # config.i18n.default_locale = :de
 
     config.ember.variant = :development
+    config.assets.initialize_on_precompile = false
   end
 end
